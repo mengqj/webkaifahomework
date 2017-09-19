@@ -1,6 +1,7 @@
 	.body{
 			width:1000px;
-			margin:0 200px;
+			margin:0px 200px;
+                  
 		}
 		.header{
 			height:30px;
@@ -8,6 +9,7 @@
             background-color: #333;
 
 		}
+            .nav a:hover{color:#e8420a;}
 		.li{
 			display:inline;
 			text-decoration:none;
@@ -26,6 +28,7 @@
 			height: 50px;
 			width:100%;
 			background-color: #fff;
+                  border-bottom: 0.5px solid gray;
 		}
 		.logo{
 			margin:10px 0px;
@@ -38,6 +41,38 @@
 			text-decoration:none;
 			color:gray;
 		}
+            .rigthlist{
+        height: 350px;
+        width:28px;
+        float:right;
+        margin:20px 0px;
+        
+
+     } 
+     .listright1 {
+        height: 28px;
+        width: 100%;
+        margin: 3px 0px;
+        background-color: #1c5080;
+        
+     } 
+     .listright2{
+        height:120px;
+        width:100%;
+        margin: 3px 0px;
+        background-color: #e8420a;
+     }
+    .listright3{
+        height: 34px;
+        width: 28px;
+        margin: 0px 0px;
+    }
+    .listright2  p{
+        color: #fff;
+        font-size: 10px;
+        text-align: center;
+        margin: 0px 0px;
+    }
 		.list{
 			float:right;
 			margin:10px 0px;
